@@ -1,0 +1,55 @@
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+build/
+
+# Production
+*.log
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*.local
+
+# Misc system files
+.DS_Store
+Thumbs.db
+
+# Editor folders and settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional cache and lock files
+.yarn/
+.pnp.*
+.cache/
+.next/
+out/
+
+# Testing
+/coverage/
+
+# Tailwind CSS generated files (if any)
+*.css.map
+
+# PostCSS
+.postcssrc
+postcss.config.js
+
+# OS files
+ehthumbs.db
+Desktop.ini
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development settings
+*.local
